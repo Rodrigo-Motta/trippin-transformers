@@ -1,15 +1,17 @@
-# 🧠🌈🍄 Trippin’ Transformers
+# 🧠🌈🍄 Trippin’ Transformers: Inducing Artificially Altered States of Mind in Large Language Models
 
-**Inducing Artificially Altered States of Mind in Large Language Models**
+Selected Resident (inaugural cohort, chosen from 80+ submissions) in [Cloudwalk Inc. AI Residency program](https://www.cloudwalk.io/ai-residency-selected)
 
-[![Project Diagram](./docs/trippin_transformers_diagram.png)
-*Image: Conceptual diagram showing ASC prompting and fine-tuning approaches ](https://github.com/Rodrigo-Motta/trippin-transformers/issues/1#issue-3011789924)
 
----
-
-## 🧬 Overview
+## Overview
 
 This project investigates whether Large Language Models (LLMs) can enter artificially induced altered states of consciousness (ASC), akin to those experienced by humans under psychedelics such as LSD. Inspired by the **Entropic Brain Hypothesis**, this work introduces a novel hypothesis – the **Entropic AI Hypothesis** – positing that similar entropic signatures might emerge in LLMs through specialized prompting and fine-tuning.
+
+
+![Image](https://github.com/user-attachments/assets/b3a0f94d-ec69-46e5-8aba-528b40208f9f)
+
+*Image: Conceptual diagram showing ASC prompting and fine-tuning approaches 
+
 
 ---
 
@@ -57,17 +59,23 @@ By analogy, entropy in LLM activations may reveal induced artificial altered sta
 
 ## 📁 Project Structure
 
-project/
+```
+trippin-transformers/
 │
-├── data/                      # Processed ASC questionnaire and Reddit reports
-├── models/                    # Checkpoints of fine-tuned models
-├── notebooks/                 # Analysis and visualization notebooks
-├── scripts/                   # Prompting and fine-tuning scripts
-├── docs/
+├── data/                          # Processed datasets (e.g., ASC questionnaires, Reddit reports)
+│
+├── models/                        # Base and fine-tuned LLM checkpoints
+│
+├── notebooks/                     # Jupyter notebooks for analysis, entropy computation, and visualization
+│
+├── scripts/                       # Python scripts for prompting, fine-tuning, and entropy calculations
+│
+├── docs/                          # Documentation assets and images for README
 │   ├── trippin_transformers_diagram.png
 │   └── entropic_brain_model.png
-└── README.md
----
+│
+└── README.md                      # Project overview and instructions
+```
 
 ## 🧠 References
 
