@@ -22,14 +22,24 @@ This project investigates whether Large Language Models (LLMs) can enter artific
 3. **Fine-Tuning:** Train LLMs on psychedelic experience reports from Reddit and reassess entropy and behavior.
 4. **Cross-Domain Comparison:** Compare the entropic behavior of LLMs to human brain data from fMRI under LSD/placebo.
 
+
+## Dataset
+
+- ** [Preprocessed DMT 340 in Huggingface](https://huggingface.co/datasets/MottaCC/340-dmt)
+- ** [Preprocessed wid in Huggingface](https://huggingface.co/datasets/MottaCC/cw-psy-narratives)
+  
 ---
+
+## Fine-Tuned Models
+
+- ** [Mistral 7B (base model)](https://huggingface.co/MottaCC/mistral-7b-finetuned-dmt)
 
 ## 🧪 Methodology
 
 ### 1. Data Sources
 - **ASC questionnaires**
 - **Reddit communities**: `r/LSD`
-- **Public LSD fMRI dataset** with CC0 license 
+- **Public LSD fMRI dataset** with CC0 license
 
 ### 2. Prompt Engineering
 Prompts are crafted based on validated ASC dimensions like:
